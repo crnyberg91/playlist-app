@@ -1,7 +1,12 @@
+import React from 'react';
 import './SearchResults.css';
 
-
-function SearchResults() {
+/**
+ * displays search results
+ *
+ * @returns tracklist component
+ */
+const SearchResults: React.FC = () => {
     return (
         <div className="SearchResults">
             <h2>Results</h2>
