@@ -4,7 +4,13 @@ import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Playlist from '../Playlist/Playlist';
 
-function App() {
+
+/**
+ * returns imported components to be rendered in index.tsx
+ *no parameters passed in the meantime
+ * @returns organized jsx
+ */
+const App: React.FC = () => {
 	return (
 		<div>
 			<h1>
@@ -19,6 +25,6 @@ function App() {
 			</div>
 		</div>
 	);
-}
+};
 
 export default App;
