@@ -14,7 +14,7 @@ const App: React.FC = () => {
 	return (
 		<div>
 			<h1>
-				Ja<span className='highlight'>mmm</span>ing
+				Playlist App Name Placeholder
 			</h1>
 			<div className='App'>
 				<SearchBar />
