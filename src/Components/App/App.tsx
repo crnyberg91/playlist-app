@@ -3,6 +3,7 @@ import './App.css';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Playlist from '../Playlist/Playlist';
+import { Track } from '../../models';
 
 /**
  * returns imported components to be rendered in index.tsx
@@ -11,6 +12,7 @@ import Playlist from '../Playlist/Playlist';
  */
 const App: React.FC = () => {
 	const [item, setItem] = useState<string>('');
+	const [items, setItems] = useState<Track[]>([]);
 	const handleClick = (e: React.FormEvent) => {
 		e.preventDefault();
 	};
